@@ -5,7 +5,7 @@ version '1.0'
 buildscript {
     repositories {
         google()
-        jcenter()
+        mavenCentral()
     }
 
     dependencies {
@@ -40,7 +40,7 @@ android {
 
 }
 dependencies {
-    implementation 'com.github.tbruyelle:rxpermissions:0.9.3'
-    implementation "io.reactivex.rxjava2:rxjava:2.2.3"
+    implementation 'com.github.tbruyelle:rxpermissions:0.12'
+    implementation "io.reactivex.rxjava3:rxjava:3.1.8"
 }
 
